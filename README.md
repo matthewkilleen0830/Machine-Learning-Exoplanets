@@ -59,3 +59,15 @@ In this homework assignment, you will need to:
 * When hyper-parameter tuning, some models have parameters that depend on each other, and certain combinations will not create a valid model. Be sure to read through any warning messages and check the documentation
 
 - - -
+
+## Reporting
+
+* Model Performance
+
+- Logistic Regression:
+
+- Random Forests:
+
+- k Nearest Neighbors:
+
+- Neural Network/Deep Learning:
