@@ -30,10 +30,6 @@ In this homework assignment, you will need to:
 * Use `GridSearch` to tune model parameters.
 * Tune and compare at least two different classifiers.
 
-### Reporting
-
-* Create a README that reports a comparison of each model's performance as well as a summary about your findings and any assumptions you can make based on your model (is your model good enough to predict new exoplanets? Why or why not? What would make your model be better at predicting new exoplanets?).
-
 - - -
 
 ## Resources
@@ -60,14 +56,24 @@ In this homework assignment, you will need to:
 
 - - -
 
-## Reporting
+## Reporting: &nbsp;Model Performance
 
-* Model Performance
+- Logistic Regression: &nbsp;GridSearch trained/tuned model was 87.93% accurate.
 
-- Logistic Regression:
+- Random Forests: &nbsp;GridSearch trained/tuned model was 89.16% accurate.
 
-- Random Forests:
+- k Nearest Neighbors: &nbsp;GridSearch trained/tuned model was 81.94% accurate.
 
-- k Nearest Neighbors:
+- Neural Network/Deep Learning: &nbsp;trained model was 90.16% accurate.
 
-- Neural Network/Deep Learning:
+In this example, we chose machine learning types Logistic Regression, Random Forests, k Nearest Neighbors, and
+Neural Network/Deep Learning. &nbsp;Out of these four types, the Deep Learning model was most accurate. &nbsp;That being said, we feel that additional parameter tuning
+would improve the results of this machine learning model. &nbsp;Since deep learning models are typically reserved for much
+larger datasets, potentially more data from the Kepler deep space telescope could increase its accuracy even further. &nbsp;
+Because this model is over 90% accurate, we feel it is good enough to correctly classify exoplanets.
+
+Additionally, the k Nearest Neighbors model was more accurate (roughly 83% accurate) prior to applying GridSearch tuning. &nbsp;
+Possibly specifying more parameters within the GridSearch would increase the accuracy of this trained/tuned model.
+
+In sum, we feel that specififying more parameters within the GridSearch tuning has the potential to increase the accuracy of several types
+of models whenever applicable.
